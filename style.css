@@ -1,0 +1,130 @@
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(241, 225, 250);
+    align-items: center;
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right: 3px;
+    text-transform:uppercase;
+
+}
+
+.nav-link li a{
+    text-decoration: none;
+}
+
+#aboutMe{
+    display: flex;
+    align-items: center;
+    margin: 150px 30px 150px 30px;
+}
+
+#aboutMe img{
+    max-width: 25%;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#contact img{
+    display: block;
+    text-align: center;
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+    #aboutMe{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    #contactme { 
+        flex-direction: column;
+    }
+
+    #contact{
+        flex-direction: column;  
+    }
+    
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(241, 225, 250) ;
+    color: rgb(63, 39, 83);
+    
+    
+}
+
+footer ul{
+    list-style: none;
+}
+
+p{
+    display: flex;
+    text-align: left;
+    color: rgb(63, 39, 83);
+    font-family:Didot;
+    font-size: 25px;
+
+}
+
+figure {
+    display: flex;
+    display: inline-block;
+   
+}
+
+figcaption {
+    display: flex;
+    text-align: center;
+    font-family: Didot;
+    font-size: 25px;
+    font-style: italic;
+    padding: 5px;
+ 
+}
+
+h1{
+    display: flex;
+    text-align: left;
+    color: rgb(63, 39, 83);
+    font-family: Optima;
+    font-size: 40px; 
+    text-transform:uppercase;
+}
+
+h2{
+    display: flex;
+    text-align: left;
+    color: rgb(131, 108, 149);
+    font-family: Optima;
+    font-size: 25px; 
+    text-transform:uppercase;  
+}
+
+#form{
+    font-family:Optima ;
+    color: rgb(131, 108, 149);
+}
+
+.container{
+    color: rgb(131, 108, 149);
+
+}
